@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+   background: url(../images/bg_all.jpg) no-repeat;
+    background-size: 100%;
+
+}
+
+html {
+    height: 100%;
+    box-shadow: 0px 0px 300px #000 inset;
+    -webkit-box-shadow: 0px 0px 50px #000 inset;
+}
+
+#yi {
+    position: absolute;
+    width: 95%;
+    background-color: rgb(222, 243, 243);
+    margin-left: 2.5%;
+    height: 145px;
+    border-radius: 25px;
+    opacity: 0.3;
+}
+
+#yi_01 {
+    width: 350px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    margin-left: 35%;
+}
+
+#zuo {
+    margin-left: 2.5%;
+    margin-top: 15%;
+    width: 17.5%;
+    position: absolute;
+    height: 280px;
+    background-color: rgb(222, 243, 243);
+    opacity: 0.3;
+    border-radius: 25px;
+    line-height: 50%;
+}
+
+#zuo2 {
+    margin-left: 2.5%;
+    margin-top: 37%;
+    width: 17.5%;
+    position: absolute;
+    height: 120px;
+    background-color: rgb(222, 243, 243);
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+#zuo2_01 {
+    margin-left: 2.5%;
+    margin-top: 37.5%;
+    width: 17.5%;
+    position: absolute;
+    height: 120px;
+    border-radius: 25px;
+}
+
+#zuo_01 {
+    margin-left: 2.5%;
+    margin-top: 20%;
+    width: 17.5%;
+    position: absolute;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#anniu1 {
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+}
+#anniu2 {
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+}
+#anniu3 {
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+}
+#anniu1 {
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+}
+#anniu4 {
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+}
+#anniu5 {
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+}
+#anniu6 {
+    text-align: center;
+    list-style: none;
+    margin-top: 2%;
+}
+
+
+#you {
+    margin-left: 22.5%;
+    margin-top: 15%;
+    width: 75%;
+    position: absolute;
+    height: 420px;
+    background-color: rgb(222, 243, 243);
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+.input_1 {
+    outline: none;
+    margin-top: 10px;
+    border: 0;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #999;
+}
+
+.input_2 {
+    margin: 20px 0px;
+    border: 0;
+    background: #fff;
+}
+
+h1 {
+    color: #fff;
+}
+
+
+/*单选*/
+
+.radio_box {
+    display: inline-block;
+    position: relative;
+    margin: 20px 5px;
+}
+
+.radio_box label {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #3A5367;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.radio_box input:checked+label:after {
+    content: '';
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background: #3A5367;
+    border-radius: 50%;
+}
+
+.check_box em {
+    margin: 0 0 0 5px;
+}
+
+.input_4 {
+    outline: none;
+    width: 100px;
+    height: 45px;
+    border: 0;
+    padding: 5px 7px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.input_3 {
+    outline: none;
+    width: 80px;
+    height: 45px;
+    border: 0;
+    padding: 5px 7px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+form{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-220px;
+    width:480px;
+    height:380px;
+    background:url(../images/b.png) no-repeat;
+    border-radius:25px;
+    color:#fff;
+    text-align:center;
+    padding:65px;
+    /*box-shadow: 0px 0px 15px #0005;*/
+}
