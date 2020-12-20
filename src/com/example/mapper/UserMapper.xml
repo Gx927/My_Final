@@ -9,5 +9,7 @@
     <insert id="stuRegister" parameterType="com.example.dao.Student" >
         insert into student(id,stuName,account,password) values (#{id},#{stuName},#{account},#{password})
     </insert>
-
+    <select id="getChapterInfo" parameterType="String" resultType="com.example.dao.Chapter">
+        SELECT * FROM Chapter where courseName =#{courseName}
+    </select>
 </mapper>

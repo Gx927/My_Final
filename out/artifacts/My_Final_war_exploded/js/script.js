@@ -10,21 +10,42 @@
 	}
 	form1.action="#";
 	form1.submit();
-}*/
-window.onload = function(){
+}*/window.onload = function() {
 	var i3 = document.getElementsByClassName('input_3');
-	for(var i=0;i<i3.length;i++){
-		i3[i].onmouseover = function(){
+	for (var i = 0; i < i3.length; i++) {
+		i3[i].onmouseover = function() {
 			this.style.backgroundColor = "#23271F";
 			this.style.color = "#fff";
 		}
-		i3[i].onmouseout = function(){
+		i3[i].onmouseout = function() {
+			this.style.backgroundColor = "#fff";
+			this.style.color = "#23271F";
+		}
+	}
+	var i4 = document.getElementsByClassName('input_4');
+	for (var i = 0; i < i4.length; i++) {
+		i4[i].onmouseover = function() {
+			this.style.backgroundColor = "#23271F";
+			this.style.color = "#fff";
+		}
+		i4[i].onmouseout = function() {
+			this.style.backgroundColor = "#fff";
+			this.style.color = "#23271F";
+		}
+	}
+	var i4 = document.getElementsByClassName('input_chaxun2');
+	for (var i = 0; i < i4.length; i++) {
+		i4[i].onmouseover = function() {
+			this.style.backgroundColor = "#23271F";
+			this.style.color = "#fff";
+		}
+		i4[i].onmouseout = function() {
 			this.style.backgroundColor = "#fff";
 			this.style.color = "#23271F";
 		}
 	}
 	var pass = document.getElementById("password");
-	pass.onfocus = function(){
+	pass.onfocus = function() {
 		pass.type = "password";
 	}
 }

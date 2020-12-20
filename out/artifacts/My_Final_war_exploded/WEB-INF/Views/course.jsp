@@ -46,8 +46,7 @@
 
 </div>
 <div id="zuo_01">
-    <li id="anniu1"><a href="${pageContext.request.contextPath }/course.jsp"><input class="input_4" type="button" value="在线学习平台" />
-    </a></li>
+    <li id="anniu1"> <input class="input_4" type="button" value="在线学习平台" /></li>
     <li id="anniu2"> <input class="input_3" type="button" value="讨论池" /></li>
     <li id="anniu3"> <input class="input_3" type="button" value="蹭课表" /></li>
 </div>
@@ -63,13 +62,14 @@
 </div>
 <div id="you_01">
     <h1>在线学习平台</h1>
+    <form action="/Course"  method="post">
     <li id="anniu_chaxun1"> <input class="input_chaxun1" id="username" size="15" name="coursename"></li>
-    <li id="anniu_chaxun2"> <input class="input_chaxun2" type="button" value="查询课程" /></li>
-
+    <li id="anniu_chaxun2"> <input class="input_chaxun2" type="submit" value="查询课程" /></li>
+    </form>
 
     <div id="you_02">
 
-        <li id="info1">1</li>
+        <li id="info1">${cour}</li>
         <li id="info2">2</li>
 
     </div>

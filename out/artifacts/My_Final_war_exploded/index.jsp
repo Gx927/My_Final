@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="css/css.css" />
 </head>
 <body>
-<form name="form1"  method="post">
+<form name="form1" id="form1" method="post">
     <script>  function skiplogin() {
         window.location.href='${pageContext.request.contextPath }/login.jsp';
     }</script>

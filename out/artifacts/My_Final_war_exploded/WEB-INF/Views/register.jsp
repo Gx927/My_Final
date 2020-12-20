@@ -22,7 +22,7 @@
     window.location.href='${pageContext.request.contextPath }/register';
 }</script>
 <form name="form1"  method="post" action="/register">
-    <h1>E起学Java系统</h1>
+    <h1>E</h1>
     <h3>新用户注册</h3>
     <input class="input_1" id="id" size="15"  name="id"  placeholder="学号"><br />
     <input class="input_1" id="stuName" size="15"  name="stuName"  placeholder="姓名"><br />

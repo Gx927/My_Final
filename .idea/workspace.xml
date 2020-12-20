@@ -6,7 +6,39 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dabd1f2a-455e-4dd4-adb5-726839bc2bce" name="Default Changelist" comment="" />
+    <list default="true" id="dabd1f2a-455e-4dd4-adb5-726839bc2bce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/InfoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/InfoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/config/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/InfoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/InfoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_Final/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/config/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/dao/InfoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dao/InfoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/Ero.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +51,13 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -32,23 +67,28 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1lSGHrfZgL2QM1BJIRVddmxKAyV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../My_InterF" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Idea_Workpalce\My_Final\web\WEB-INF\images" />
       <recent name="D:\Idea_Workpalce\My_Final\web" />
+      <recent name="D:\Idea_Workpalce\My_Final\web\WEB-INF\lib" />
       <recent name="D:\Idea_Workpalce\My_Final\web\WEB-INF\Views" />
-      <recent name="D:\Idea_Workpalce\My_Final\web\WEB-INF" />
-      <recent name="D:\Idea_Workpalce\My_Final\src\com\example" />
+      <recent name="D:\Idea_Workpalce\My_Final\web\css" />
+      <recent name="D:\Idea_Workpalce\My_Final\src\com\example\controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Idea_Workpalce\My_Final\web\images" />
@@ -170,11 +210,32 @@
       <workItem from="1608108198851" duration="5054000" />
       <workItem from="1608115614683" duration="936000" />
       <workItem from="1608123113945" duration="1857000" />
-      <workItem from="1608125064619" duration="4964000" />
+      <workItem from="1608125064619" duration="5931000" />
+      <workItem from="1608180086752" duration="605000" />
+      <workItem from="1608184609354" duration="10015000" />
+      <workItem from="1608216722459" duration="4096000" />
+      <workItem from="1608269482449" duration="29000" />
+      <workItem from="1608308130112" duration="394000" />
+      <workItem from="1608310416753" duration="608000" />
+      <workItem from="1608350478890" duration="762000" />
+      <workItem from="1608372221151" duration="23000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

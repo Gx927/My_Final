@@ -1,7 +1,10 @@
 package com.example.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
+import com.example.dao.Chapter;
+import com.example.dao.Course;
 import com.example.dao.InfoImpl;
 import javax.annotation.Resource;
 
@@ -12,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.example.dao.Student;
 import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -58,11 +62,25 @@ public class MyController {
                  System.out.println("注册成功");
                  return "main";
              }
-
-
             System.out.println(b);
             PrintWriter out = response.getWriter();
             out.println("<font color=black>" + b.toString() + "</font>");
             return "register";
         }
+        @RequestMapping(value = "/Course",method = RequestMethod.POST)
+    public String selecetCourse(HttpServletRequest request, HttpServletResponse response, Model model){
+        String courseName=request.getParameter("coursename");
+        List<Chapter> chapter =infoImpl.getChapterInfo(courseName);
+        model.addAttribute("cour",chapter);
+        return "course";
+    }
+
+    @RequestMapping(value = "/Lesson")
+    public String selecetLesson(HttpServletRequest request, HttpServletResponse response, Model model){
+        String courseName=request.getParameter("coursename");
+        List<Chapter> chapter =infoImpl.getChapterInfo(courseName);
+        model.addAttribute("cour",chapter);
+        return "course";
+    }
+
     }

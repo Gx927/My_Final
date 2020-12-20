@@ -24,8 +24,8 @@
 <script>  function login() {
     window.location.href='${pageContext.request.contextPath }/login';
 }</script>
-<form name="form1"  action="/login"  method="post">
-    <h1>E起学Java系统22</h1>
+<form name="form1" id="form1" action="/login"  method="post">
+    <h1>e</h1>
     <input class="input_1" id="username" size="15"  name="account"  placeholder="用户名"><br />
     <input class="input_1" id="password" type="text" size="15" name="password" placeholder="密码"><br />
 

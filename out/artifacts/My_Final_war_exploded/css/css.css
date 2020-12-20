@@ -1,15 +1,19 @@
 body {
     margin: 0;
     padding: 0;
-   background: url(../images/bg_all.jpg) no-repeat;
+    background: url(../images/bg_all.jpg) no-repeat;
     background-size: 100%;
-
 }
 
 html {
     height: 100%;
     box-shadow: 0px 0px 300px #000 inset;
     -webkit-box-shadow: 0px 0px 50px #000 inset;
+}
+p{
+    font-family: "Axure Handwriting";
+    font-size: larger;
+    color: black;
 }
 
 #yi {
@@ -76,37 +80,36 @@ html {
     list-style: none;
     margin-top: 2%;
 }
+
 #anniu2 {
     text-align: center;
     list-style: none;
     margin-top: 2%;
 }
+
 #anniu3 {
     text-align: center;
     list-style: none;
     margin-top: 2%;
 }
-#anniu1 {
-    text-align: center;
-    list-style: none;
-    margin-top: 2%;
-}
+
 #anniu4 {
     text-align: center;
     list-style: none;
     margin-top: 2%;
 }
+
 #anniu5 {
     text-align: center;
     list-style: none;
     margin-top: 2%;
 }
-#anniu6 {
+
+#anniu1 {
     text-align: center;
     list-style: none;
     margin-top: 2%;
 }
-
 
 #you {
     margin-left: 22.5%;
@@ -118,6 +121,68 @@ html {
     opacity: 0.3;
     border-radius: 25px;
 }
+
+#you_01 {
+    text-align: center;
+    margin-left: 22.5%;
+    margin-top: 15%;
+    width: 75%;
+    position: absolute;
+    height: 420px;
+    border-radius: 25px;
+}
+
+#you_02 {
+    text-align: center;
+    margin-left: 2.5%;
+    margin-top: 5%;
+    width: 45%;
+    position: absolute;
+    height: 220px;
+    opacity: 0.4;
+    background-color: rgb(222, 243, 243);
+    border-radius: 25px;
+}
+
+#you_03 {
+    text-align: center;
+    margin-left: 50.5%;
+    margin-top: 5%;
+    width: 45%;
+    position: absolute;
+    height: 220px;
+    opacity: 0.4;
+    background-color: rgb(222, 243, 243);
+    border-radius: 25px;
+}
+#form1{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-220px;
+    width:480px;
+    height:380px;
+    background:url(../images/b.png) no-repeat;
+    border-radius:25px;
+    color:#fff;
+    text-align:center;
+    padding:65px;
+    /*box-shadow: 0px 0px 15px #0005;*/
+}
+#info1 {
+    list-style: none;
+}
+#info2 {
+    list-style: none;
+}
+#info3 {
+    list-style: none;
+}
+#info4{
+    list-style: none;
+}
+
 
 .input_1 {
     outline: none;
@@ -198,18 +263,41 @@ h1 {
     border-radius: 20px;
     margin: 0px 10px;
 }
-form{
-    position:absolute;
-    left:50%;
-    top:50%;
-    margin-left:-300px;
-    margin-top:-220px;
-    width:480px;
-    height:380px;
-    background:url(../images/b.png) no-repeat;
-    border-radius:25px;
-    color:#fff;
-    text-align:center;
-    padding:65px;
-    /*box-shadow: 0px 0px 15px #0005;*/
+
+.input_chaxun1 {
+    margin-left: -19%;
+    margin-top: 0%;
+    position: absolute;
+    outline: none;
+    border: 0;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+    font-size: 18px;
+    list-style: none;
+    color: #999;
+}
+
+.input_chaxun2 {
+    margin-left: 35%;
+    margin-top: 10%;
+    position: absolute;
+    outline: none;
+    width: 80px;
+    list-style: none;
+    height: 45px;
+    border: 0;
+    padding: 5px 7px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+#anniu_chaxun1 {
+    list-style: none;
+}
+
+#anniu_chaxun2 {
+    list-style: none;
 }

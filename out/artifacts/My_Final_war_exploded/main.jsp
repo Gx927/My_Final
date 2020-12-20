@@ -62,7 +62,7 @@
 
 </div>
 <div id="you_01">
-    <h1>在线学习平台</h1>
+   <%-- <h1>在线学习平台</h1>
     <li id="anniu_chaxun1"> <input class="input_chaxun1" id="username" size="15" name="coursename"></li>
     <li id="anniu_chaxun2"> <input class="input_chaxun2" type="button" value="查询课程" /></li>
 
@@ -78,7 +78,7 @@
         <li id="info3">1</li>
         <li id="info4">2</li>
 
-    </div>
+    </div>--%>
 </div>
 
 <script type="text/javascript" src="./js/script.js"></script>
