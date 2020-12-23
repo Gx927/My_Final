@@ -4,6 +4,7 @@ import java.net.URLEncoder;
 import java.util.List;
 import java.util.UUID;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.io.FileUtils;
 import org.springframework.http.HttpHeaders;
@@ -60,17 +61,20 @@ public class FileUploadController {
 	}
 	
 	@RequestMapping("/download")
-	public ResponseEntity<byte[]> fileDownload(HttpServletRequest request,
-	                                           String filename) throws Exception{
+	public ResponseEntity<byte[]> fileDownload(HttpServletRequest request, HttpServletResponse response
+	                                           ) throws Exception{
+		request.setCharacterEncoding("utf-8");
+		response.setContentType("text/html; charset=UTF-8");
+		response.setCharacterEncoding("utf-8");
 	    // 指定要下载的文件所在路径
 	    String path = request.getServletContext().getRealPath("/upload/");
 		System.out.println("fileDownload: path directory is " + path);
 	    // 创建该文件对象
-	    File file = new File(path+File.separator+filename);
+	    File file = new File(path+File.separator+"资料.docx");
 	    // 设置响应头
 	    HttpHeaders headers = new HttpHeaders();
 	    // 通知浏览器以下载的方式打开文件
-	    headers.setContentDispositionFormData("attachment", filename);
+	    headers.setContentDispositionFormData("attachment", "资料.docx");
 	    // 定义以流的形式下载返回文件数据
 	    headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
 	    // 使用Sring MVC框架的ResponseEntity对象封装返回下载数据

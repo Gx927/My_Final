@@ -28,17 +28,31 @@
     function skipregister() {
         window.location.href = '${pageContext.request.contextPath }/register.jsp';
     }
-</script>
-<script>
+    function skiprhalo() {
+        window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
+    }
     function login() {
         window.location.href = '${pageContext.request.contextPath }/login';
     }
+    function cengke() {
+        window.location.href = '${pageContext.request.contextPath }/teacher';
+    }
+    function skiprhalo() {
+        window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
+    }
+    function cengke() {
+        window.location.href = '${pageContext.request.contextPath }/teacher';
+    }
+    function pinglun() {
+        window.location.href = '${pageContext.request.contextPath }/comment.jsp';
+    }
+
 </script>
 <div id="yi">
 
 </div>
 <div id="yi_01">
-    <h1>e</h1>
+    <h1>e·起学Java</h1>
 
     <input class="input_3" type="button" value="线上" />
     <input class="input_3" type="button" onclick="skipregister()" value="线下" />
@@ -48,15 +62,16 @@
 
 </div>
 <div id="zuo_01">
-    <li id="anniu1"> <input class="input_4" type="button" value="在线学习平台" /></li>
-    <li id="anniu2"> <input class="input_3" type="button" value="讨论池" /></li>
-    <li id="anniu3"> <input class="input_3" type="button" value="蹭课表" /></li>
+    <li id="anniu1"><a href="${pageContext.request.contextPath }/chapter.jsp"><input class="input_4" type="button" value="在线学习平台" />
+    </a></li>
+    <li id="anniu2"> <input class="input_3" type="button" onclick="pinglun()" value="讨论池" /></li>
+    <li id="anniu3"> <input class="input_3" type="button" onclick="cengke()" value="蹭课表" /></li>
 </div>
 <div id="zuo2">
 
 </div>
 <div id="zuo2_01">
-    <li id="anniu4"> <input class="input_3" type="button" value="个人中心" /></li>
+    <li id="anniu4"> <input class="input_3" type="button" onclick="skiprhalo()" value="个人中心" /></li>
     <li id="anniu5"> <input class="input_3" type="button" value="退出" /></li>
 </div>
 <div id="you">
@@ -64,24 +79,24 @@
 </div>
 <div id="you_01">
     <h1>在线学习平台</h1>
-    <form action="/Course"  method="post">
+    <form action="/Chapter"  method="post">
     <li id="anniu_chaxun1"> <input class="input_chaxun1" id="username" size="15" name="coursename"></li>
     <li id="anniu_chaxun2"> <input class="input_chaxun2" type="submit" value="查询课程" /></li>
     </form>
 
     <div id="you_02">
 
-        <a href="${pageContext.request.contextPath }/Lesson"><li id="info1"><p>${cour[0].title}</p></li></a>
-        <a href="${pageContext.request.contextPath }/Lesson"> <li id="info1"><p>${cour[1].title}</p></li></a>
-        <a href="${pageContext.request.contextPath }/Lesson"><li id="info1"><p>${cour[2].title}</p></li></a>
-        <a href="${pageContext.request.contextPath }/Lesson"><li id="info1"><p>${cour[3].title}</p></li></a>
-        <a href="${pageContext.request.contextPath }/Lesson"> <li id="info1"><p>${cour[4].title}</p></li></a>
+        <a href="${pageContext.request.contextPath }/Lesson"><li id="info1"><p id="tolesson1">${chapter[0].content}</p></li></a>
+        <a href="${pageContext.request.contextPath }/Lesson"> <li id="info2"><p>${chapter[1].content}</p></li></a>
+        <a href="${pageContext.request.contextPath }/Lesson"><li id="info3"><p>${chapter[2].content}</p></li></a>
+        <a href="${pageContext.request.contextPath }/Lesson"><li id="info4"><p>${chapter[3].content}</p></li></a>
+        <a href="${pageContext.request.contextPath }/Lesson"> <li id="info5"><p>${chapter[4].content}</p></li></a>
 
 
     </div>
     <div id="you_03">
 
-
+       <li id="content"> <a href="http://tfswufe.top:8090/"><p name="">${lesson.content}</p></a></li>
 
     </div>
 </div>

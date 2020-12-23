@@ -11,7 +11,7 @@
 <html>
 
 <head>
-    <title>登录界面</title>
+    <title>讨论池</title>
     <meta charset="utf-8">
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
@@ -30,6 +30,21 @@
 <script>
     function login() {
         window.location.href = '${pageContext.request.contextPath }/login';
+    }
+    function skiprhalo() {
+        window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
+    }
+    function cengke() {
+        window.location.href = '${pageContext.request.contextPath }/teacher';
+    }
+    function fenxiang() {
+        window.location.href = '${pageContext.request.contextPath }/addcomment.jsp';
+    }
+    function tomost() {
+        window.location.href = '${pageContext.request.contextPath }/res';
+    }
+    function tonew() {
+        window.location.href = '${pageContext.request.contextPath }/new';
     }
     function skiprhalo() {
         window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
@@ -58,7 +73,7 @@
 <div id="zuo_01">
     <li id="anniu1"><a href="${pageContext.request.contextPath }/chapter.jsp"><input class="input_4" type="button" value="在线学习平台" />
     </a></li>
-    <li id="anniu2"> <input class="input_3" type="button" onclick="pinglun()" value="讨论池" /></li>
+    <li id="anniu2"> <input class="input_3" type="button" value="讨论池" /></li>
     <li id="anniu3"> <input class="input_3" type="button" onclick="cengke()" value="蹭课表" /></li>
 </div>
 <div id="zuo2">
@@ -89,6 +104,17 @@
         <li id="info4">2</li>
 
     </div>--%>
+
+           <h1>讨论池</h1>
+       <input class=input_4 type="button" onclick="tomost()" value="查看热帖" />
+       <input class=input_4 type="button" onclick="tonew()" value="最新发布" />
+
+        <div id="troubles">
+
+        <li ><p id="gai">${tour[0]}</p>&nbsp<a href="${pageContext.request.contextPath }/update.jsp">编辑</a>&nbsp&nbsp<a href="${pageContext.request.contextPath }/delete">删除</a></li>
+
+
+        </div>>
 </div>
 
 <script type="text/javascript" src="./js/script.js"></script>

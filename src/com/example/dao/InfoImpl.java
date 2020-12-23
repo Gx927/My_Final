@@ -7,9 +7,14 @@ import java.util.List;
 
 public interface InfoImpl {
     public Student getStuInfo(String account);
-    public Teacher getTeaInfo();
     public int stuRegister(Student s);
     public Course getCourseInfo(String s);
     public List<Chapter> getChapterInfo(String s);
-    public Lesson getLesson( Course c,Chapter d);
+    public Lesson getLesson( );
+    public List<Teacher> getTeaInfo();
+    public int addTrouble(Trouble trouble);
+    public List<Res> getRes();
+    public  List<Trouble> getTrouble();
+    public int deleteNew(String s);
+    public int updateNew(Trouble s);
 }

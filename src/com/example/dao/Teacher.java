@@ -1,17 +1,14 @@
 package com.example.dao;
 
 public class Teacher {
-    private int id ;
     private String teaName;
-    private String account;
-    private  String password;
+    private String courseTime;
+    private String classRoom;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public Teacher(String teaName, String courseTime, String classRoom) {
+        this.teaName = teaName;
+        this.courseTime = courseTime;
+        this.classRoom = classRoom;
     }
 
     public String getTeaName() {
@@ -22,23 +19,28 @@ public class Teacher {
         this.teaName = teaName;
     }
 
-    public String getAccount() {
-        return account;
+    public String getCourseTime() {
+        return courseTime;
     }
 
-    public void setAccount(String account) {
-        this.account = account;
+    public void setCourseTime(String courseTime) {
+        this.courseTime = courseTime;
     }
 
-    public String getPassword() {
-        return password;
+    public String getClassRoom() {
+        return classRoom;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setClassRoom(String classRoom) {
+        this.classRoom = classRoom;
     }
+
     @Override
     public String toString() {
-        return "教师编号："+id+"姓名："+teaName;
+        return "Teacher{" +
+                "teaName='" + teaName + '\'' +
+                ", courseTime='" + courseTime + '\'' +
+                ", classRoom='" + classRoom + '\'' +
+                '}';
     }
 }

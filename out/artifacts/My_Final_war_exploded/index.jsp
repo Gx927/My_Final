@@ -21,8 +21,11 @@
 <form name="form1" id="form1" method="post">
     <script>  function skiplogin() {
         window.location.href='${pageContext.request.contextPath }/login.jsp';
-    }</script>
-    <h1>E起学Java系统</h1>
+
+    }
+
+    </script>
+    <h1>e·起学Java系统</h1>
 
 
     <br/>

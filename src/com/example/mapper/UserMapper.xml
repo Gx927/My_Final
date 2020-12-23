@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.example.dao.InfoImpl">
-
-
     <select id="getStuInfo" parameterType="com.example.dao.Student" resultType="com.example.dao.Student">
         SELECT * FROM student where account =#{account}
     </select>
@@ -10,6 +8,29 @@
         insert into student(id,stuName,account,password) values (#{id},#{stuName},#{account},#{password})
     </insert>
     <select id="getChapterInfo" parameterType="String" resultType="com.example.dao.Chapter">
-        SELECT * FROM Chapter where courseName =#{courseName}
+        SELECT * FROM chapter where courseId =#{courseName}
     </select>
+    <select id="getLesson"  resultType="com.example.dao.Lesson">
+        SELECT * FROM lesson
+    </select>
+    <select id="getRes"  resultType="com.example.dao.Res">
+        SELECT * FROM most
+    </select>
+    <select id="getTeaInfo"  resultType="com.example.dao.Teacher">
+        SELECT * FROM teacher
+    </select>
+    <insert id="addTrouble" parameterType="com.example.dao.Teacher" >
+        insert into trouble(id,bugName,bianyi) values ("1",#{content},#{bianyi})
+    </insert>
+    <select id="getTrouble"  resultType="com.example.dao.Trouble">
+        SELECT * FROM trouble
+    </select>
+    <delete id="deleteNew" parameterType="String" >
+        delete  from trouble where bugName=#{name}
+    </delete>
+    <update id="updateNew" parameterType="com.example.dao.Trouble" >
+        update trouble set bugName=#{content} where id=1
+    </update>
 </mapper>
+
+

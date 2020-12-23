@@ -31,12 +31,22 @@
     function login() {
         window.location.href = '${pageContext.request.contextPath }/login';
     }
+    function skiprhalo() {
+        window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
+    }
+    function cengke() {
+        window.location.href = '${pageContext.request.contextPath }/teacher';
+    }
+    function pinglun() {
+        window.location.href = '${pageContext.request.contextPath }/comment.jsp';
+    }
+
 </script>
 <div id="yi">
 
 </div>
 <div id="yi_01">
-    <h1>e</h1>
+    <h1>e·起学Java</h1>
 
     <input class="input_3" type="button" value="线上" />
     <input class="input_3" type="button" onclick="skipregister()" value="线下" />
@@ -46,16 +56,16 @@
 
 </div>
 <div id="zuo_01">
-    <li id="anniu1"><a href="${pageContext.request.contextPath }/course.jsp"><input class="input_4" type="button" value="在线学习平台" />
+    <li id="anniu1"><a href="${pageContext.request.contextPath }/chapter.jsp"><input class="input_4" type="button" value="在线学习平台" />
     </a></li>
-    <li id="anniu2"> <input class="input_3" type="button" value="讨论池" /></li>
-    <li id="anniu3"> <input class="input_3" type="button" value="蹭课表" /></li>
+    <li id="anniu2"> <input class="input_3" type="button" onclick="pinglun()" value="讨论池" /></li>
+    <li id="anniu3"> <input class="input_3" type="button" onclick="cengke()" value="蹭课表" /></li>
 </div>
 <div id="zuo2">
 
 </div>
 <div id="zuo2_01">
-    <li id="anniu4"> <input class="input_3" type="button" value="个人中心" /></li>
+    <li id="anniu4"> <input class="input_3" type="button" onclick="skiprhalo()" value="个人中心" /></li>
     <li id="anniu5"> <input class="input_3" type="button" value="退出" /></li>
 </div>
 <div id="you">

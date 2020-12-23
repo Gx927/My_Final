@@ -1,16 +1,16 @@
 package com.example.dao;
 
 public class Chapter {
-    private String id;
+    private String chapterid;
     private String courseId;
-    private String title;
+    private String content;
 
-    public String getId() {
-        return id;
+    public String getChapterid() {
+        return chapterid;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setChapterid(String chapterid) {
+        this.chapterid = chapterid;
     }
 
     public String getCourseId() {
@@ -21,20 +21,21 @@ public class Chapter {
         this.courseId = courseId;
     }
 
-    public String getTitle() {
-        return title;
+
+    public String getContent() {
+        return content;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     @Override
     public String toString() {
         return "章节{" +
-                "id='" + id + '\'' +
+                "id='" + chapterid + '\'' +
                 ", 课程号='" + courseId + '\'' +
-                ", 主题='" + title + '\'' +
+                ", 主题='" + content + '\'' +
                 '}';
     }
 }

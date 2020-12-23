@@ -14,6 +14,10 @@ p{
     font-family: "Axure Handwriting";
     font-size: larger;
     color: black;
+
+}
+li{
+    list-style: none;
 }
 
 #yi {
@@ -32,6 +36,13 @@ p{
     position: absolute;
     text-align: center;
     margin-left: 35%;
+}
+#table{
+    width: 80%;
+    height: 75%;
+    margin-left:10% ;
+    margin-top: 5%;
+    position: center;
 }
 
 #zuo {
@@ -131,17 +142,32 @@ p{
     height: 420px;
     border-radius: 25px;
 }
+#troubles{
+    align-content: center;
+    width: 75%;
+    height: 65%;
+    margin-top: -1%;
+    margin-left: 12.5%;
+    background: white;
+    border-radius: 25px;
+}
 
 #you_02 {
-    text-align: center;
-    margin-left: 2.5%;
-    margin-top: 5%;
-    width: 45%;
-    position: absolute;
-    height: 220px;
-    opacity: 0.4;
-    background-color: rgb(222, 243, 243);
-    border-radius: 25px;
+     text-align: center;
+     margin-left: 2.5%;
+     margin-top: 5%;
+     width: 45%;
+     position: absolute;
+     height: 220px;
+     opacity: 0.4;
+     background-color: rgb(222, 243, 243);
+     border-radius: 25px;
+ }
+#fanhui{
+    font-family: "Axure Handwriting";
+    font-size: larger;
+    color: black;
+    margin-top: 8%;
 }
 
 #you_03 {
@@ -170,6 +196,21 @@ p{
     padding:65px;
     /*box-shadow: 0px 0px 15px #0005;*/
 }
+#form5{
+    position:absolute;
+    left:50%;
+    top:38%;
+    margin-left:-300px;
+    margin-top:-220px;
+    width:480px;
+    height:380px;
+
+    border-radius:25px;
+
+    text-align:center;
+    padding:65px;
+    /*box-shadow: 0px 0px 15px #0005;*/
+}
 #info1 {
     list-style: none;
 }
@@ -180,6 +221,12 @@ p{
     list-style: none;
 }
 #info4{
+    list-style: none;
+}
+#info4{
+     list-style: none;
+ }
+#info5{
     list-style: none;
 }
 
@@ -263,6 +310,18 @@ h1 {
     border-radius: 20px;
     margin: 0px 10px;
 }
+.input_10 {
+    outline: none;
+    width: 80px;
+    height: 45px;
+    border: 0;
+    padding: 5px 7px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+
 
 .input_chaxun1 {
     margin-left: -19%;

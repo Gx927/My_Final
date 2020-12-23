@@ -48,4 +48,14 @@
 	pass.onfocus = function() {
 		pass.type = "password";
 	}
+
+	function skipregister() {
+		window.location.href = '${pageContext.request.contextPath }/register.jsp';
+	}
+	function skiprhalo() {
+		window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
+	}
+	function login() {
+		window.location.href = '${pageContext.request.contextPath }/login';
+	}
 }

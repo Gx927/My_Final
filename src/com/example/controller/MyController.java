@@ -1,19 +1,17 @@
 package com.example.controller;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 
-import com.example.dao.Chapter;
-import com.example.dao.Course;
-import com.example.dao.InfoImpl;
+import com.example.dao.*;
+
 import javax.annotation.Resource;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.example.dao.Student;
-import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -67,20 +65,99 @@ public class MyController {
             out.println("<font color=black>" + b.toString() + "</font>");
             return "register";
         }
-        @RequestMapping(value = "/Course",method = RequestMethod.POST)
-    public String selecetCourse(HttpServletRequest request, HttpServletResponse response, Model model){
+        @RequestMapping(value = "/Chapter",method = RequestMethod.POST)
+    public String selecetCourse(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+            request.setCharacterEncoding("utf-8");
+            response.setContentType("text/html; charset=UTF-8");
+            response.setCharacterEncoding("utf-8");
         String courseName=request.getParameter("coursename");
         List<Chapter> chapter =infoImpl.getChapterInfo(courseName);
-        model.addAttribute("cour",chapter);
-        return "course";
+        model.addAttribute("chapter",chapter);
+           /* String chaptername =request.getParameter("tolesson1");
+            System.out.println(chaptername);
+            Lesson lessons =infoImpl.getLesson(chaptername);
+            model.addAttribute("lesson",lessons);*/
+
+        return "chapter";
     }
 
-    @RequestMapping(value = "/Lesson")
-    public String selecetLesson(HttpServletRequest request, HttpServletResponse response, Model model){
-        String courseName=request.getParameter("coursename");
-        List<Chapter> chapter =infoImpl.getChapterInfo(courseName);
-        model.addAttribute("cour",chapter);
-        return "course";
+    @RequestMapping(value = "/Lesson" )
+    public String selecetLesson(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+
+
+        Lesson lessons =infoImpl.getLesson();
+        model.addAttribute("lesson",lessons);
+        return "lesson";
+    }
+    @RequestMapping(value = "/teacher" )
+    public String getTea(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+
+
+        List<Teacher> teachers =infoImpl.getTeaInfo();
+        model.addAttribute("tea",teachers);
+        return "toclass";
+    }
+    @RequestMapping(value = "/addcomment" ,method = RequestMethod.POST )
+    public String addcomment(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+        request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html; charset=UTF-8");
+        response.setCharacterEncoding("utf-8");
+
+        String bugname = request.getParameter("id");
+        String[] bianyi=request.getParameterValues("gettype");
+        String bianyi1=bianyi[0];
+        Trouble trouble =new Trouble("1",bugname,bianyi1);
+        System.out.println(trouble);
+       int ret=infoImpl.addTrouble(trouble);
+        if (ret>0){
+            System.out.println("ok");
+        }
+
+        return "addcomment";
+    }
+    @RequestMapping(value = "/res" )
+    public String getRes(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+
+
+        List<Res> res =infoImpl.getRes();
+        model.addAttribute("res",res);
+        return "look";
+    }
+    @RequestMapping(value = "/new" )
+    public String getnew(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+
+
+        List<Trouble> trouble =infoImpl.getTrouble();
+        model.addAttribute("tour",trouble);
+        System.out.println(trouble);
+        return "new";
+    }
+
+    @RequestMapping(value = "/delete" ,method = RequestMethod.GET )
+    public String deletenew(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+        List<Trouble> trouble =infoImpl.getTrouble();
+        model.addAttribute("tour",trouble);
+        String name=trouble.get(0).getContent();
+        System.out.println(trouble.get(0).getContent());
+        int ret=infoImpl.deleteNew(name);
+        if (ret>0)
+            System.out.println("Bug删除成功！");
+        return "new";
+    }
+    @RequestMapping(value = "/update" ,method = RequestMethod.POST )
+    public String updatenew(HttpServletRequest request, HttpServletResponse response, Model model) throws UnsupportedEncodingException {
+        request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html; charset=UTF-8");
+        response.setCharacterEncoding("utf-8");
+
+        String bugname = request.getParameter("id");
+        String[] bianyi=request.getParameterValues("gettype");
+        String bianyi1=bianyi[0];
+        Trouble trouble =new Trouble("1",bugname,bianyi1);
+        int ret =infoImpl.updateNew(trouble);
+        if (ret>0)
+            System.out.println("Bug修改成功！");
+        return "new";
     }
 
     }

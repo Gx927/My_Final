@@ -11,7 +11,7 @@
 <html>
 
 <head>
-    <title>登录界面</title>
+    <title>蹭课啦</title>
     <meta charset="utf-8">
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
@@ -34,13 +34,15 @@
     function skiprhalo() {
         window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
     }
+    function skiprhalo() {
+        window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
+    }
     function cengke() {
         window.location.href = '${pageContext.request.contextPath }/teacher';
     }
     function pinglun() {
         window.location.href = '${pageContext.request.contextPath }/comment.jsp';
     }
-
 </script>
 <div id="yi">
 
@@ -89,6 +91,29 @@
         <li id="info4">2</li>
 
     </div>--%>
+    <table border="1" id="table">
+        <tr style="height: 30px">
+            <th>任课教师</th>
+            <th>上课时间</th>
+            <th>教室地点</th>
+        </tr>
+       <tr style="height: 40px">
+        <td>${tea[0].teaName}</td>
+        <td>${tea[0].courseTime}</td>
+        <td>${tea[0].classRoom}</td>
+    </tr>
+        <tr style="height: 40px">
+            <td>${tea[1].teaName}</td>
+            <td>${tea[1].courseTime}</td>
+            <td>${tea[1].classRoom}</td>
+        </tr>
+        <tr style="height: 40px">
+            <td>${tea[2].teaName}</td>
+            <td>${tea[2].courseTime}</td>
+            <td>${tea[2].classRoom}</td>
+        </tr>
+    </table>
+
 </div>
 
 <script type="text/javascript" src="./js/script.js"></script>

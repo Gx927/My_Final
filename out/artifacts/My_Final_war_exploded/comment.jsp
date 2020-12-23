@@ -11,7 +11,7 @@
 <html>
 
 <head>
-    <title>登录界面</title>
+    <title>讨论池</title>
     <meta charset="utf-8">
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
@@ -30,6 +30,18 @@
 <script>
     function login() {
         window.location.href = '${pageContext.request.contextPath }/login';
+    }
+    function skiprhalo() {
+        window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
+    }
+    function cengke() {
+        window.location.href = '${pageContext.request.contextPath }/teacher';
+    }
+    function fenxiang() {
+        window.location.href = '${pageContext.request.contextPath }/addcomment.jsp';
+    }
+    function tolook() {
+        window.location.href = '${pageContext.request.contextPath }/look.jsp';
     }
     function skiprhalo() {
         window.location.href = 'http://www.tfswufe.top:8090/admin/index.html#/user/profile';
@@ -89,6 +101,15 @@
         <li id="info4">2</li>
 
     </div>--%>
+
+           <h1>讨论池</h1>
+
+
+           <input class=input_4 type="button" onclick="fenxiang()" value="分享你的Bug" />
+           <input class=input_4 type="button" onclick="tolook()" value="看看解决方案" />
+
+
+
 </div>
 
 <script type="text/javascript" src="./js/script.js"></script>

@@ -7,37 +7,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dabd1f2a-455e-4dd4-adb5-726839bc2bce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/Views/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/controller/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/controller/FileUploadController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/Chapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/Chapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/InfoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/InfoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/dao/Teacher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/com/example/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/WEB-INF/classes/config/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/course.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/css/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/lesson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/lesson.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/My_Final_war_exploded/upload/admin_394358a1-7d83-4a8b-900b-64134876d9c9_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/controller/FileUploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/controller/FileUploadController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/controller/MyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/Chapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/Chapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/InfoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/InfoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/dao/Teacher.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/My_Final/com/example/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/com/example/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/My_Final/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/My_Final/config/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/controller/FileUploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/controller/FileUploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/dao/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dao/Chapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/dao/InfoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dao/InfoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/example/dao/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/dao/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/example/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/example/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/springmvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/Ero.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/main.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/Views/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/course.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/chapter.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lesson.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/lesson.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,8 +54,8 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -75,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../My_InterF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -83,18 +86,18 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Idea_Workpalce\My_Final\web\images" />
+      <recent name="D:\Idea_Workpalce\My_Final\web\js" />
+      <recent name="D:\Idea_Workpalce\My_Final\web\css" />
+      <recent name="D:\Idea_Workpalce\My_Final\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Idea_Workpalce\My_Final\web" />
       <recent name="D:\Idea_Workpalce\My_Final\web\WEB-INF\lib" />
       <recent name="D:\Idea_Workpalce\My_Final\web\WEB-INF\Views" />
       <recent name="D:\Idea_Workpalce\My_Final\web\css" />
       <recent name="D:\Idea_Workpalce\My_Final\src\com\example\controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Idea_Workpalce\My_Final\web\images" />
-      <recent name="D:\Idea_Workpalce\My_Final\web\js" />
-      <recent name="D:\Idea_Workpalce\My_Final\web\css" />
-      <recent name="D:\Idea_Workpalce\My_Final\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,6 +222,15 @@
       <workItem from="1608310416753" duration="608000" />
       <workItem from="1608350478890" duration="762000" />
       <workItem from="1608372221151" duration="23000" />
+      <workItem from="1608442263005" duration="598000" />
+      <workItem from="1608460040607" duration="19000" />
+      <workItem from="1608522834130" duration="10511000" />
+      <workItem from="1608535353579" duration="1035000" />
+      <workItem from="1608538964833" duration="10804000" />
+      <workItem from="1608622082029" duration="2600000" />
+      <workItem from="1608641164609" duration="36000" />
+      <workItem from="1608690730000" duration="2692000" />
+      <workItem from="1608716918105" duration="13687000" />
     </task>
     <servers />
   </component>

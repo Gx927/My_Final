@@ -11,7 +11,7 @@
 <html>
 
 <head>
-    <title>登录界面</title>
+    <title>发表</title>
     <meta charset="utf-8">
     <meta http-equiv="pragma" content="no-cache">
     <meta http-equiv="cache-control" content="no-cache">
@@ -89,6 +89,26 @@
         <li id="info4">2</li>
 
     </div>--%>
+       <form name="form5" id="form5" method="post" action="/addcomment">
+           <h1>发表Bug</h1>
+
+           <input class="input_1" id="id" size="15"  name="id"  placeholder="输入你的Bug"><br />
+
+
+
+           <span class="radio_box">
+               <input type="radio" id="radio_1" name="gettype" value="Idea" checked>
+               <label for="radio_1"></label>
+              Idea
+        	</span>
+           <span class="radio_box">
+               <input type="radio" id="radio_2" name="gettype" value="Eclipse">
+               <label for="radio_2"></label>
+               Eclipse
+       		</span><br/>
+           <input class=input_3 type="submit" value="完成" />
+
+           </form>
 </div>
 
 <script type="text/javascript" src="./js/script.js"></script>
